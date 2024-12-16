@@ -1,0 +1,34 @@
+.project-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    min-height: 330px; 
+  }
+  
+  .project-card a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .project-card a:hover {
+    text-decoration: underline;
+  }
+  
+  .project-card .text-muted {
+    color: #6c757d !important;
+  }
+  
+  .project-card .card-footer {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    margin-top: auto; 
+  }
+  
+  .project-card .card-title {
+    flex-grow: 1; 
+  }
+  
+  
